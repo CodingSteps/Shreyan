@@ -92,7 +92,9 @@ text-align: center;}
 100%{background-color:green;transform:translate(1200px,0px);color:white;}
 }
 
-
+h3{
+	display: inline;
+}
 .sub:hover{
 padding:40px;
 width:800px;
