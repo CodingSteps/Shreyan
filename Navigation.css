@@ -95,7 +95,7 @@ text-align: center;}
 h3{
 	display: none;
 }
-.sub:hover h3{{display:block;}
+.sub:hover h3{display:block;}
 
 .sub:hover{
 padding:40px;
