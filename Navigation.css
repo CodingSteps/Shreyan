@@ -1,0 +1,127 @@
+body{margin: 0px;
+ font-family: Abel,
+ sans-serif;}
+
+ul{
+	height: 100px;
+    background-color: white;
+    margin: 0px;
+    list-style-type: none;
+}
+
+
+.logo{
+	float: left;
+}
+
+.menu{
+	float: right;
+ padding: 40px 10px 10px 30px;
+}
+
+a:hover{
+	background-color: black;
+	 color: white;
+	 text-decoration: underline;
+	}
+
+a{
+	text-decoration: none;
+	 font-size: 20px;
+	  font-weight: 750;
+	   color:black;
+	    padding:15px;
+	     border-radius: 10px;
+	 }
+
+.dropdown{
+	position: relative;
+}
+
+.dropdownContent{
+	display: none;
+	 background-color: aliceblue;
+	 height: 200px;
+	 min-width: 160px;
+	 border-radius: 0px;
+	}
+
+
+.dropdown:hover .dropdownContent{
+
+	display: block;
+	position: absolute;
+	top: 80px;
+	left: 10px;
+}
+
+
+.submenu{
+	display: block;
+	text-decoration: none;
+    padding: 20px;
+    border-bottom: 1px solid lightgrey; 
+    border-radius: 10px;
+}
+
+h1{
+background-color:lightblue;
+width:400px;
+padding: 20px;
+text-align: center;
+
+animation-name:new;
+animation-duration:20s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+animation-timing-function: linear;
+animation-delay: 0s;
+//animation: example 5s linear 2s infinite alternate;
+}
+
+.sub{background-color:orange;
+width:600px;
+padding:1px;
+text-align: center;}
+
+@keyframes new{
+0%{background-color:lightblue;transform:translate(0px,0px);}   
+25%{background-color:grey;transform:translate(300px,0px);} 
+50%{background-color:black;transform:translate(600px,0px);}
+75%{background-color:darkred;transform:translate(900px,0px);color:white}
+100%{background-color:green;transform:translate(1200px,0px);color:white;}
+}
+
+
+.sub:hover{
+padding:40px;
+width:800px;
+transition:padding 10s, width 10s;
+}
+
+.back{
+  width: 3px;
+  height: 3px;
+  margin-top: 20px;
+}
+
+.styl1{
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;  
+  
+}
+
+@keyframes example {
+  0%   {background-color:red; left:-0.1px; top:0px;}
+  25%  {background-color:goldenrod; left:30px; top:0px;}
+  50%  {background-color:blue; left:30px; top:20px;}
+  75%  {background-color:green; left:-0.1px; top:20px;}
+  100% {background-color:red; left:-0.1px; top:0px;}
+}
