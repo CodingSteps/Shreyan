@@ -97,11 +97,7 @@ h3{
 }
 .sub:hover h3{display:block;}
 
-.sub:hover{
-padding:40px;
-width:800px;
-transition:padding 10s, width 10s;
-}
+
 
 .back{
   width: 3px;
