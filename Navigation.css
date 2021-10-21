@@ -93,7 +93,7 @@ text-align: center;}
 }
 
 h3{
-	display: inline;
+	display: none;
 }
 .sub:hover{
 padding:40px;
