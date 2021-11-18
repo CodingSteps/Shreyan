@@ -1,0 +1,53 @@
+*{box-sizing: border-box;}
+
+body{margin: 0px;font-family: "Helvetica Neue", Helvetica;}
+
+.Front{
+	display:flex; 
+	flex-direction:column;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items: center;
+	background-image: url('https://www.sde.org.tr/content/upload/regional-analysis/dunya-20210528141335.jpg?width=1194&height=722&mode=crop&scale=both&meta=square');
+	height: 755px;
+	background-size: cover;
+	background-position: center;
+	width: 1300px;
+}
+
+.Fronttxt{
+	text-align: center;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+  letter-spacing: 0px;
+}
+
+.title{color: #926239; font-size: 50px;font-weight: 600;line-height: 40px;}
+.subtitle{color: #926239; font-size: 20px;}
+.moreBtn{border-radius: 10px;border: 2px solid #926239;color:#926239;font-size:20px;text-decoration:none;padding:10px;}
+
+.section2{background-color:#926239;color: white; padding: 20px; text-align: justify; font-size: 17px; line-height: 25px;}
+
+.section3{background-color:#F4F4F4;color: #926239; padding: 20px; text-align: justify; font-size: 17px; line-height: 25px;}
+
+.section4{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.part1,.part2,.part3{flex: 0 1 33%;padding: 20px; text-align:justify; font-size: 17px; line-height: 25px;}
+
+.part1,.part3{background-color:#926239;color: white;}
+.part2{background-color:#F4F4F4;color: #926239;}
+
+@media screen and (max-width: 800px) 
+{
+  .section4 
+  {
+    flex-direction: column;
+  }
+} 
