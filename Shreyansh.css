@@ -2,36 +2,64 @@
 
 body{margin: 0px;font-family: "Helvetica Neue", Helvetica;}
 
-.Front{
+.section1{
 	display:flex; 
 	flex-direction:column;
 	flex-wrap:wrap;
 	justify-content:center;
 	align-items: center;
-	background-image: url('https://www.sde.org.tr/content/upload/regional-analysis/dunya-20210528141335.jpg?width=1194&height=722&mode=crop&scale=both&meta=square');
-	height: 755px;
+	background-image: url('https://media.cntraveler.com/photos/5697f66978d099fc122482c6/master/w_1600%2Cc_limit/horseshoe-bay-bermuda-getty.jpg');
+	height: 800px;
 	background-size: cover;
 	background-position: center;
-	width: 1300px;
+	width: 100%;
 }
 
-.Fronttxt{
+.sectionTxt{
 	text-align: center;
-	color: white;
+}
+
+.title{
+	color: black;
+	 font-size: 50px;
+	 font-weight: 600;
+	 line-height: 40px;
+	}
+.subtitle{
+	width: 500px;
+	border-radius: 10px;
+	border: 2px solid white;
+	color: white; 
+	background-color: cadetblue;
+	font-size: 20px;
+}
+.moreBtn{
+	border-radius: 10px;
+	border: 2px solid white;
+	color:white;
+	background-color: skyblue;
+	font-size:20px;
+	text-decoration:none;
+	padding:10px;
+}
+
+.section2{
+	background-color:black;
+	color: white; 
 	padding: 20px;
-	text-align: center;
-	font-size: 25px;
-	text-transform: uppercase;
-  letter-spacing: 0px;
-}
+	 text-align: justify;
+	  font-size: 17px;
+	   line-height: 25px;
+	 }
 
-.title{color: #926239; font-size: 50px;font-weight: 600;line-height: 40px;}
-.subtitle{color: #926239; font-size: 20px;}
-.moreBtn{border-radius: 10px;border: 2px solid #926239;color:#926239;font-size:20px;text-decoration:none;padding:10px;}
-
-.section2{background-color:#926239;color: white; padding: 20px; text-align: justify; font-size: 17px; line-height: 25px;}
-
-.section3{background-color:#F4F4F4;color: #926239; padding: 20px; text-align: justify; font-size: 17px; line-height: 25px;}
+.section3{
+	background-color:#926239;
+	color: white; 
+	padding: 20px;
+	 text-align: justify;
+	  font-size: 17px;
+	   line-height: 25px;
+	 }
 
 .section4{
 	display: flex;
@@ -39,10 +67,22 @@ body{margin: 0px;font-family: "Helvetica Neue", Helvetica;}
 	flex-wrap: wrap;
 }
 
-.part1,.part2,.part3{flex: 0 1 33%;padding: 20px; text-align:justify; font-size: 17px; line-height: 25px;}
+.part1,.part2,.part3,.part4,.part5{
+	flex: 0 1 18%;
+	padding: 20px;
+	text-align:justify;
+	font-size: 17px;
+	line-height: 25px;
+}
 
-.part1,.part3{background-color:#926239;color: white;}
-.part2{background-color:#F4F4F4;color: #926239;}
+.part1,.part3,.part5{
+	background-color:white;
+	color: white;
+}
+.part2,.part4,{
+	background-color:#926239;
+	color: white;
+}
 
 @media screen and (max-width: 800px) 
 {
