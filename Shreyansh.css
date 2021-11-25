@@ -26,7 +26,7 @@ body{margin: 0px;font-family: "Helvetica Neue", Helvetica;}
 	 line-height: 40px;
 	}
 .subtitle{
-	width: 500px;
+	width: 100%;
 	border-radius: 10px;
 	border: 2px solid white;
 	color: white; 
@@ -95,6 +95,30 @@ h5{
 @media screen and (max-width: 800px) 
 {
   .section4 
+  {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 800px) 
+{
+  .section1 
+  {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 800px) 
+{
+  .section2 
+  {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 800px) 
+{
+  .subtitle 
   {
     flex-direction: row;
   }
