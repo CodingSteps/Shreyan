@@ -1,6 +1,8 @@
-body{margin: 0px;
+body{
+	margin: 0px;
  font-family: Abel,
- sans-serif;}
+ sans-serif;
+}
 
 ul{
 	height: 100px;
@@ -28,7 +30,7 @@ a{
 	text-decoration: none;
 	 font-size: 20px;
 	  font-weight: 750;
-	   color:lightgrey;
+	   color:black;
 	    padding:15px;
 	     border-radius: 10px;
 	 }
@@ -39,7 +41,7 @@ a{
 
 .dropdownContent{
 	display: none;
-	 background-color:#003153;
+	 background-color:white;
 	 height: 0px;
 	 min-width: 160px;
 	 border-radius: 0px;
@@ -60,76 +62,58 @@ a{
     padding: 20px;
     border-bottom: 1px solid lightgrey; 
     border-radius: 0px;
+    background-color: white;
 }
 
 body{
-	background-color: #003153;
+	background-color: white;
 }
 
-h6{
-	font-size: 37px;
+.image{
+	background-color: black;
+	background-image: url('https://curlytales.com/wp-content/uploads/2019/05/ghee-roast.jpg');
+	background-repeat: no-repeat;
+	height: 613px;
+	width: 100%;
+	background-position: center;
+}
+
+.idli{
+	background-color: black;
+	background-image: url('https://t3.ftcdn.net/jpg/04/02/12/80/360_F_402128075_06J9Y69ScRrYKFpQr1PAH0L7YziB83ry.jpg');
+	height: 500px;
+	width: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.idli{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+h5{
+	font-size: 20px;
+	background-color: black;
 	color: white;
-  text-align: left;
-  padding-left: 100px;
-	margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-h2{
+.part1,.part2{
+	flex: 1 1 33.48%;
+	padding: 20px;
+	text-align:justify;
+	font-size: 17px;
+	line-height: 25px;
+	 }
+
+.part1{
+	background-color:black;
+	color: white;
+	}
+.part2{
+	background-color:black;
 	color: white;
 }
 
-.sub{
-background-color:#003153;
-width:300px;
-padding:1px;
-text-align: center;
-}
-
-
-
-.News{
-	color: white;
-	font-size: 30px;
-	font-weight: bold;
-	text-align: center;
-}
-
-h3{
-	display: none;
-}
-
-.sub:hover h3{display:block;}
-
-.img1{
-	height: 600px;
-	width: 990px;
-	padding-left: 100px;
-}
-
-
-.back{
-  width: 3px;
-  height: 3px;
-  margin-top: 20px;
-}
-
-.styl1{
-  width: 20px;
-  height: 20px;
-  border-radius: 100px;
-  background-color: red;
-  position: relative;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;  
-  
-}
-
-@keyframes example {
-  0%   {background-color:red; left:-0.1px; top:0px;}
-  25%  {background-color:goldenrod; left:30px; top:0px;}
-  50%  {background-color:blue; left:30px; top:20px;}
-  75%  {background-color:green; left:-0.1px; top:20px;}
-  100% {background-color:red; left:-0.1px; top:0px;}
-}
