@@ -120,14 +120,6 @@ input{
 	border-radius: 10px;
 }
 
-.space{
-	background-image: url('https://pixelnirvana.com/wp-content/uploads/2020/03/Annapoorna_50-Celebration-Badge_v02a_2020-scaled.jpg');
-	background-repeat: no-repeat;
-	height: 350px;
-	background-position: center;
-}
-
-
 @media screen and (max-width: 800px) 
 {
   .video 
