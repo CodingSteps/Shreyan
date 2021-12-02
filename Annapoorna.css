@@ -166,3 +166,5 @@ input{
     flex-direction: row;
   }
 }
+
+footer{height: 100px;width: 100%;background-color: #F1F1F1; text-align: center;padding-top: 50px;}
