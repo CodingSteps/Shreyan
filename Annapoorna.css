@@ -126,3 +126,51 @@ input{
 	height: 350px;
 	background-position: center;
 }
+
+
+@media screen and (max-width: 800px) 
+{
+  .video 
+  {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 800px) 
+{
+  .cofee 
+  {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 800px) 
+{
+  .space 
+  {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 800px) 
+{
+  .pic 
+  {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 800px) 
+{
+  .about 
+  {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 800px) 
+{
+  .people 
+  {
+    flex-direction: row;
+  }
+}
