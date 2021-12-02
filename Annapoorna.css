@@ -99,23 +99,27 @@ body{
 
 .
 
+.people{
+	width: 1000px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 80px;
+
+}
+
 input{
-	width: 80%;
+	width: 50%;
 	border:0;
 	border-bottom: 1px solid #eee;
 	margin:10px;
-	 padding: 10px;
-	}
+	padding: 10px;
+	margin-left: 450px;
+}
+
 #submit{
 	border-radius: 10px;
 }
 
-.people{
-	width: 1000px;
-	margin: auto;
-	margin-top: 80px;
-	margin-bottom: 80px;
-	}
 .space{
 	background-image: url('https://pixelnirvana.com/wp-content/uploads/2020/03/Annapoorna_50-Celebration-Badge_v02a_2020-scaled.jpg');
 	background-repeat: no-repeat;
