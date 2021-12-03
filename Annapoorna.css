@@ -68,7 +68,8 @@ body{
 
 .video{
 	background-image: url('https://curlytales.com/wp-content/uploads/2019/05/ghee-roast.jpg');
-	height: 700px;
+	height:700px;
+	background-color: black;
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -81,29 +82,33 @@ body{
 }
 
 .about,.pic{
-	flex: 1 1 10.1%;
+	flex: 1 1 0.1%;
 	padding: 20px;
 	margin-left: 10px;
 	text-align:justify;
 	font-size: 17px;
 	line-height: 25px;
+	background-color: black;
+	color: white;
 }
 
 .pic{
 	background-image: url('https://pixelnirvana.com/wp-content/uploads/2020/03/Annapoorna-poster_mockup_MD-copy.jpg');
-	height:300px;
+	height:350px;
 	background-position: center;
-    padding-left: 10px;
+    padding-left: 0px;
 	background-repeat: no-repeat;
+	background-color: black;
 }
 
-.
+
 
 .people{
 	width: 1000px;
 	margin: auto;
-	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-size: 0px;
 
 }
 
@@ -112,8 +117,13 @@ input{
 	border:0;
 	border-bottom: 1px solid #eee;
 	margin:10px;
-	padding: 10px;
-	margin-left: 450px;
+	padding:10px;
+	margin-left: 200px;
+	font-size: 19px;
+}
+
+.Online{
+	margin-left: 650px;
 }
 
 #submit{
