@@ -1,0 +1,44 @@
+.nav{
+  width: 100px;
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  left: -150px;
+  transition: left 0.3s;
+
+}
+
+.nav:hover{
+  left: -4px;
+}
+
+#About{
+  background-color: grey;
+  color: white;
+  top: 220px;
+}
+
+#Blog{
+  background-color: red;
+  color: white;
+  top: 275px;
+}
+
+#Projects{
+  background-color: black;
+  color: white;
+  top: 331px;
+}
+
+#Contact{
+  background-color: green;
+  color: white;
+  top: 387px;
+}
+
