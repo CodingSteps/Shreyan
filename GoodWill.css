@@ -1,0 +1,84 @@
+.nav{
+  width: 100px;
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  left: -150px;
+  transition: left 0.3s;
+
+}
+
+.nav:hover{
+  left: -4px;
+}
+
+
+#Home{
+  background-color: grey;
+  color: white;
+  top: 220px;
+}
+
+#About{
+  background-color: red;
+  color: white;
+  top: 275px;
+}
+
+#Location{
+  background-color: green;
+  color: white;
+  top: 331px;
+}
+
+#Contact{
+  background-color: purple;
+  color: white;
+  top: 387px;
+}
+h1{
+  text-align: center;
+  color: greenyellow;
+}
+body{
+  background-color: black;
+  margin: 0px;
+  font-family: Abel,
+  sans-serif;
+}
+.gallary{
+  text-align: center;
+  color: white;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.p1,.p2,.p3{
+  flex: 0 1 33.33%;
+  padding: 20px;
+  text-align:center;
+  font-size: 20px;
+  line-height: 25px;
+   }
+footer{
+  background-color: yellow;
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+}
+h4{
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0%;
+}
